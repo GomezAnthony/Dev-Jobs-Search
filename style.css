@@ -1,0 +1,108 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   background: url('/images/background-image.jpg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;  
+}
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.navbar {
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar i {
+   font-size: 3.5rem;
+   color: aliceblue;
+}
+
+.search-bar-container {
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.search-bar-container h1 {
+   color: aliceblue;
+   font-size: 4rem;
+   font-family: 'Poppins', sans-serif;
+   padding:15px 0;
+}
+.search-bar-container h1 span {
+   color: rgb(62, 127, 238);
+}
+
+.search-bar-container form #job-search-bar {
+   width: 500px;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+   font-size: 15px;
+}
+
+.search-bar-container form #job-search-button {
+   border: none;
+   height: 40px;
+   background-color: rgb(62, 127, 238);
+   color: aliceblue;
+   width: 100px;
+   border-radius: 10px;
+}
+
+.search-bar-container form #job-search-button:hover {
+   background-color: rgb(51, 107, 203);
+   cursor: pointer;
+   transition: all 500ms ease;
+
+}
+
+ #error {
+   color: red;
+   font-size: 2rem;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.card-container .cards {
+   display: grid;
+   grid-template-rows: repeat(20, 150px);
+   grid-gap: 10px 10px;
+}
+
+.card-container .cards .card {
+   background-color: aliceblue;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.card-container .cards .card p {
+   font-size: 2rem;
+}
+
+.card-container .cards .card h5 {
+   font-size: 1.5rem;
+}
+.card-container .cards .card h2 {
+   font-size: 2.5rem;
+}
