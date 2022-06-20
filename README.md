@@ -3,4 +3,4 @@
 ### There are no installations, just clone this repo and search for jobs.
 
 # Tests
-![My Image](image-1.png)
+![My Image](./images/image-1.png)
